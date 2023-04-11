@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is the Html and basics of html</title>
+    </head>
+
+      <style>
+        .offscreen {
+              border: 0;
+              height: 1px;
+              margin: -1px;
+              overflow: hidden;
+              padding: 0;
+              position: absolute;
+              width: 1px;
+        }
+      </style>
+
+    <body>
+      <h1>Following input fields:</h1>
+      
+        <label for="ssn1">Social security Number:<span class="offscreen">First three digits</span></label>
+        <input id="ssn1" type="text" size="3" maxlength="3" >
+        <label for="ssn2"><span class="offscreen">Second two digits:</span></label>
+        <input id="ssn2" type="text">
+        <label for="ssn3"><span class="offscreen">Third 1 digits:</span></label>
+        <input id="ssn3" type="text">
+    </body>
+    
+</html>
